@@ -1,0 +1,58 @@
+<!--
+	The 'registration.html' is the page that allows the user to register themselves if they are using the website first time.
+    This file contains the frontend UI.
+    Once they have entered their details correctly, their account gets created successfully and gets redirected to login page.
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Registration Portal</title>
+    <link href = "style.css"
+          rel = "stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration portal</h1>
+
+        <!--Now we create a form using HTML form to take the input-->
+
+        <form method="post" action="registration.php">
+            <p style="color: orangered; font-family: 'Franklin Gothic Medium';">Please fill all the fields</p>
+
+            <label for="username">
+                Username : 
+            </label>
+            <input id = "username"
+                   type = "text"
+                   name = "username" required />
+
+            <br />
+            <label for = "email">
+                E-mail : 
+            </label>
+            <input id = "email"
+                   type = "email"
+                   name = "email" required />
+
+            <br />
+            <label for = "password">
+                Password : 
+            </label>
+            <input id = "password"
+                   type = "password"
+                   name = "password" required />
+
+            <br /><br />
+            <input type = "submit"
+                   value = "Create Account" />
+        </form>
+
+        <br /><br />
+        <a href = "login.html">Login here</a>
+
+    </div>
+</body>
+</html>

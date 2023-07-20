@@ -1,0 +1,80 @@
+/* This file contains the external styling for the webpage billing.php*/
+
+body 
+{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header 
+{
+    background-color: grey;
+    color: #ffffff;
+    padding: 50px;
+}
+
+section 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 
+{
+    color: green;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 
+{
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+input[type="text"],
+input[type="email"] 
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] 
+{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer 
+{
+    background-color: grey;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

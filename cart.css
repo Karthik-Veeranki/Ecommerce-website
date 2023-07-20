@@ -1,0 +1,67 @@
+/* This file contains the external styling for the webpage cart.php*/
+
+table
+{
+    border-collapse : collapse;
+    width : 80%;
+    margin : 0 auto;
+}
+
+td, th
+{
+    text-align : left;
+    padding : 5px 60px;
+}
+
+th 
+{
+    background-color: #d67a7a;
+}
+
+tr:nth-child(even) 
+{
+    background-color : lightgoldenrodyellow;
+    background-color : lightgreen;
+}
+
+tr:nth-child(odd)
+{
+    background-color : aqua;
+    background-color : blue;
+}
+
+.headings
+{
+    font-size : 20px;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button 
+{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+ 
+    margin-top : 10px;
+    margin-left : 70%;
+}
+
+.button:hover 
+{
+    background-color: greenyellow;
+    color : black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer 
+{
+    background-color: grey;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

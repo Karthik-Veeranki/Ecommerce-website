@@ -1,0 +1,46 @@
+/* This file contains the external styling for the webpages login.html and registration.html */
+body
+{
+    background-image : url("background.jpeg");  /*Making the entire background to the image*/
+}
+
+.container
+{
+    display : flex;
+    flex-direction : column;    /*This makes the text to be displayed as a column*/
+    align-items : center;       /*This displays the entire text to the center of the page*/
+    height : 100vh;             /*Making the height equal to view port height*/
+
+}
+
+label
+{
+    display : block;    
+    margin-bottom : 5px;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "password"] 
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+input[type = "submit"] 
+{
+    background-color: #55c2da;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+}
+
+input[type = "submit"]:hover 
+{
+    cursor: pointer;                /*Changes the cursor style when we hover onto it*/
+    background-color: green;
+}

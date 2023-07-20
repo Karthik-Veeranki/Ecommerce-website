@@ -1,0 +1,51 @@
+<!--
+	The 'login.html' is the first page that comes to the screen when the project is executed.
+    This file contains the frontend UI - mainly prompts the user to login to the e-commerce site.
+    If they have no account, registration option is provided which will be re-directed to register them first.
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Login Portal</title>
+    <link href="style.css"
+          rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Portal</h1>
+
+        <!--Now we create form to take login credentials of the customer-->
+        <form method="post" action="login.php">
+
+            <label for="username">
+                Username :
+            </label>
+            <input id="username"
+                   type="text"
+                   name="username" required />
+            <br />
+
+            <label for="password">
+                Password :
+            </label>
+            <input id="password"
+                   type="password"
+                   name="password" />
+
+            <br /><br />
+            <input type="submit"
+                   value="Login" />
+        </form>
+
+        <br /><br />
+        <a href="registration.html">Create your account</a>
+
+    </div>
+</body>
+
+</html>
+
+
