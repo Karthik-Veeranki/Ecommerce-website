@@ -37,3 +37,7 @@ The SQL file **Database.sql** creates one database 'Shopping' which is used for 
 
 -- Products table has three fields: 'id', 'name', 'price' of the product
 
+Finally hosted the website using **XAMPP Control Panel**. Xampp is for scripts mainly written in PHP. It contains **Apache HTTP server**, also provides MySQL data storage module where admin can access the database. Having both Apache and MySQL module services started, we can view the output in any web browser at default localhost link: http://localhost/login.html
+
+
+**Disclaimer**: This project is designed solely for learning purpose. It doesn't resemble or replicate any other web services and doesn't cause any copyright issues.
